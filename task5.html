@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Task5 on HTML</title>
+    </head>
+    <body>
+       <center><font color="blue" size="10"><b>Registration form</b></font></center><br>
+
+       <table bgcolor="black" align="center">
+
+          <tr bgcolor="white">
+             <th width="140">First Name</th>
+             <td><input type="text" name="First Name" size="110" ></td>
+          </tr> 
+
+          <tr bgcolor="white">
+            <th width="140">Last Name</th>
+            <td><input type="text" name="Last Name" size="110" ></td>
+         </tr> 
+
+         <tr bgcolor="white">
+            <th width="140">Email</th>
+            <td><input type="text" name="Email" size="110"></td>
+         </tr> 
+
+         <tr bgcolor="white">
+            <th width="140">Password</th>
+            <td><input type="password" name="password" size="110" ></td>
+         </tr> 
+        
+         <tr bgcolor="white">
+            <th width="140">Re-enter Password</th>
+            <td ><input type="Password" name="password" size="110" ></td>
+         </tr> 
+         
+         <tr bgcolor="white">
+            <th rowspan="2" width="140">Gender</th>
+            <td ><input type="radio" name="Gender" size="110" value="Male"> Male</td>
+         </tr> 
+
+         <tr bgcolor="white">
+            <td><input type="radio" name="Gender" size="110" value="Female"> Female</td>
+         </tr>
+
+         <tr bgcolor="white">
+            <th width="140">Age</th>
+            <td ><input type="number" name="Age" size="110" min="1" max="99"></td>
+         </tr> 
+
+         <tr bgcolor="white">
+            <th width="140">Phone Number</th>
+            <td ><input type="tel" name="Phone Number" size="110" maxlength="10" ></td>
+         </tr> 
+
+         <tr bgcolor="white" height="100px">
+            <th width="140">Address</th>
+            <td> <textarea  rows="6" cols="105"></textarea> </td>
+         </tr> 
+
+         <tr bgcolor="white">
+            <th width="140">State</th>
+            <td><input type="text" name="State" size="110"></td>
+         </tr>
+
+         <tr bgcolor="white">
+            <th width="140">Country</th>
+            <td><select name="Gender" id="Gender">
+               <option value="Choose your country"> Choose your country</option>
+               <option value="India">India</option>
+               <option value="China">China</option>
+               <option value="Japan">Japan</option>
+               <option value="Russia">Russia</option>
+               <option value="Ameria">Ameria</option>
+               </select>
+            </td>
+         </tr>
+
+         <tr bgcolor="white">
+            <th width="140">Language known</th>
+            <td><input type="checkbox" name="Language known" value="English">English
+               <input type="checkbox" name="Language known" value="kannada">Kannada
+               <input type="checkbox" name="Language known" value="Hindi">Hindi
+               <input type="checkbox" name="Language known" value="Telugu">Telugu
+            </td>
+         </tr>
+
+         <tr bgcolor="white">
+            <td colspan="2"> <input type="checkbox" checked>Hereby I declare all the given details are true</td>
+         </tr>
+
+         <tr bgcolor="white">
+            <td align="right" colspan="2">Log in to <a href="ethnus.com">Ethnus</a> website</td>
+         </tr>
+      </table>
+
+      <br><center><button>Register</button></center>
+    </body>
+</html>
